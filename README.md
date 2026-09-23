@@ -65,4 +65,19 @@
 
 ---
 
-## Структура проекта
+
+---
+
+## Запуск
+
+### Требования
+
+- JDK 11 или новее ([adoptium.net](https://adoptium.net/))
+
+### Компиляция и запуск из командной строки
+
+Из корневой папки `lab1`:
+
+```bash
+javac -d bin -cp src src/Main.java src/main/java/**/*.java
+java -cp bin Main
